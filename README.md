@@ -1,3 +1,11 @@
+# Тестовое задание
+
+На странице используются данные с публичного [API](https://reqres.in/api/users?page=1)
+
+Выводится список карточке пользователей с аватаркой, именем и контактными данными. При нажатии на иконку лайка карточка помечается как понравившаяся. На карточке есть исконка удаления, которая удаляет ее из списка.
+
+Данные с бека хранятся в стор, в проекте используется Redux
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
