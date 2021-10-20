@@ -1,0 +1,36 @@
+.filters {
+    padding: 35px 64px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.filters__item-btn {
+    border: 2px solid #f8aba2;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.filters__item-btn:hover {
+    box-shadow: 0 0 5px 0 #f8aba2 , 0 0 3px 0 #f8aba2, 0 0 5px 0 #f8aba2 ;
+}
+
+.filters__item-btn_active {
+    color: #ffffff;
+    background-color: #f8aba2;
+}
+
+@media (max-width: 768px) {
+    .filters {
+        padding: 35px 44px;
+    }
+}
+
+
+@media (max-width: 540px) {
+    .filters {
+        padding: 35px 24px;
+    }
+}
